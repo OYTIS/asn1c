@@ -418,7 +418,7 @@ SET_OF__encode_sorted(const asn_TYPE_member_t *elm,
         /*
          * Sort the encoded elements according to their encoding.
          */
-        qsort(encoded_els, list->count, sizeof(encoded_els[0]), _el_buf_cmp);
+        //qsort(encoded_els, list->count, sizeof(encoded_els[0]), _el_buf_cmp);
 
         return encoded_els;
     } else {
